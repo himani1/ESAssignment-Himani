@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="crudes$sources_2.11"
+		revision="1.0"
+		conf="compile"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20160402211546"/>
+	<dependencies>
+		<module organisation="org.elasticsearch.plugin" name="delete-by-query">
+			<revision name="2.2.0" status="release" pubdate="20160202230050" resolver="jcenter" artresolver="jcenter" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="32">
+				<metadata-artifact status="successful" details="" size="1990" time="1303" location="/home/himani/.ivy2/cache/org.elasticsearch.plugin/delete-by-query/ivy-2.2.0.xml" searched="true" original-local-location="/home/himani/.ivy2/cache/org.elasticsearch.plugin/delete-by-query/ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/elasticsearch/plugin/delete-by-query/2.2.0/delete-by-query-2.2.0.pom"/>
+				<caller organisation="default" name="crudes$sources_2.11" conf="compile" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="delete-by-query" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="16822" time="0" location="/home/himani/.ivy2/cache/org.elasticsearch.plugin/delete-by-query/srcs/delete-by-query-2.2.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/elasticsearch/plugin/delete-by-query/2.2.0/delete-by-query-2.2.0-sources.jar"/>
+					</artifact>
+					<artifact name="delete-by-query" type="jar" ext="jar" status="no" details="" size="31064" time="0" location="/home/himani/.ivy2/cache/org.elasticsearch.plugin/delete-by-query/jars/delete-by-query-2.2.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/elasticsearch/plugin/delete-by-query/2.2.0/delete-by-query-2.2.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.elasticsearch" name="elasticsearch">
+			<revision name="2.2.1" status="release" pubdate="20160315200758" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+				<metadata-artifact status="no" details="" size="26060" time="0" location="/home/himani/.ivy2/cache/org.elasticsearch/elasticsearch/ivy-2.2.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/elasticsearch/elasticsearch/2.2.1/elasticsearch-2.2.1.pom"/>
+				<caller organisation="default" name="crudes$sources_2.11" conf="compile" rev="2.2.1" rev-constraint-default="2.2.1" rev-constraint-dynamic="2.2.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="elasticsearch" type="jar" ext="jar" status="no" details="" size="9342877" time="0" location="/home/himani/.ivy2/cache/org.elasticsearch/elasticsearch/jars/elasticsearch-2.2.1.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/elasticsearch/elasticsearch/2.2.1/elasticsearch-2.2.1.jar"/>
+					</artifact>
+					<artifact name="elasticsearch" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="5348253" time="0" location="/home/himani/.ivy2/cache/org.elasticsearch/elasticsearch/srcs/elasticsearch-2.2.1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/elasticsearch/elasticsearch/2.2.1/elasticsearch-2.2.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="jsr166e">
+			<revision name="1.1.0" status="release" pubdate="20140214232500" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/twitter/jsr166e" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="31">
+				<license name="CC0 1.0 Universal" url="http://creativecommons.org/publicdomain/zero/1.0/"/>
+				<metadata-artifact status="no" details="" size="2704" time="0" location="/home/himani/.ivy2/cache/com.twitter/jsr166e/ivy-1.1.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twitter/jsr166e/1.1.0/jsr166e-1.1.0.pom"/>
+				<caller organisation="default" name="crudes$sources_2.11" conf="compile" rev="1.1.0" rev-constraint-default="1.1.0" rev-constraint-dynamic="1.1.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jsr166e" type="jar" ext="jar" status="no" details="" size="62226" time="0" location="/home/himani/.ivy2/cache/com.twitter/jsr166e/jars/jsr166e-1.1.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/jsr166e/1.1.0/jsr166e-1.1.0.jar"/>
+					</artifact>
+					<artifact name="jsr166e" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="73410" time="0" location="/home/himani/.ivy2/cache/com.twitter/jsr166e/srcs/jsr166e-1.1.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/jsr166e/1.1.0/jsr166e-1.1.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-cli" name="commons-cli">
+			<revision name="1.3.1" status="release" pubdate="20150614153600" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-cli/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="30">
+				<metadata-artifact status="no" details="" size="10591" time="0" location="/home/himani/.ivy2/cache/commons-cli/commons-cli/ivy-1.3.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/commons-cli/commons-cli/1.3.1/commons-cli-1.3.1.pom"/>
+				<caller organisation="default" name="crudes$sources_2.11" conf="compile" rev="1.3.1" rev-constraint-default="1.3.1" rev-constraint-dynamic="1.3.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="commons-cli" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="58823" time="0" location="/home/himani/.ivy2/cache/commons-cli/commons-cli/srcs/commons-cli-1.3.1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/commons-cli/commons-cli/1.3.1/commons-cli-1.3.1-sources.jar"/>
+					</artifact>
+					<artifact name="commons-cli" type="jar" ext="jar" status="no" details="" size="52988" time="0" location="/home/himani/.ivy2/cache/commons-cli/commons-cli/jars/commons-cli-1.3.1.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/commons-cli/commons-cli/1.3.1/commons-cli-1.3.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.hdrhistogram" name="HdrHistogram">
+			<revision name="2.1.6" status="release" pubdate="20150729205419" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hdrhistogram.github.io/HdrHistogram/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="29">
+				<license name="Public Domain, per Creative Commons CC0" url="http://creativecommons.org/publicdomain/zero/1.0/"/>
+				<metadata-artifact status="no" details="" size="4064" time="0" location="/home/himani/.ivy2/cache/org.hdrhistogram/HdrHistogram/ivy-2.1.6.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/hdrhistogram/HdrHistogram/2.1.6/HdrHistogram-2.1.6.pom"/>
+				<caller organisation="default" name="crudes$sources_2.11" conf="compile" rev="2.1.6" rev-constraint-default="2.1.6" rev-constraint-dynamic="2.1.6" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="HdrHistogram" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="104887" time="0" location="/home/himani/.ivy2/cache/org.hdrhistogram/HdrHistogram/srcs/HdrHistogram-2.1.6-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/hdrhistogram/HdrHistogram/2.1.6/HdrHistogram-2.1.6-sources.jar"/>
+					</artifact>
+					<artifact name="HdrHistogram" type="jar" ext="jar" status="no" details="" size="109723" time="0" location="/home/himani/.ivy2/cache/org.hdrhistogram/HdrHistogram/jars/HdrHistogram-2.1.6.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/hdrhistogram/HdrHistogram/2.1.6/HdrHistogram-2.1.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.tdunning" name="t-digest">
+			<revision name="3.0" status="release" pubdate="20140513083900" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/tdunning/t-digest" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="28">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3692" time="0" location="/home/himani/.ivy2/cache/com.tdunning/t-digest/ivy-3.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/tdunning/t-digest/3.0/t-digest-3.0.pom"/>
+				<caller organisation="default" name="crudes$sources_2.11" conf="compile" rev="3.0" rev-constraint-default="3.0" rev-constraint-dynamic="3.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="t-digest" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="30094" time="0" location="/home/himani/.ivy2/cache/com.tdunning/t-digest/srcs/t-digest-3.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/tdunning/t-digest/3.0/t-digest-3.0-sources.jar"/>
+					</artifact>
+					<artifact name="t-digest" type="jar" ext="jar" status="no" details="" size="49754" time="0" location="/home/himani/.ivy2/cache/com.tdunning/t-digest/jars/t-digest-3.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/tdunning/t-digest/3.0/t-digest-3.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.ning" name="compress-lzf">
+			<revision name="1.0.2" status="release" pubdate="20140809221200" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/ning/compress" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="27">
+				<license name="Apache License 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="3428" time="0" location="/home/himani/.ivy2/cache/com.ning/compress-lzf/ivy-1.0.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/ning/compress-lzf/1.0.2/compress-lzf-1.0.2.pom"/>
+				<caller organisation="default" name="crudes$sources_2.11" conf="compile" rev="1.0.2" rev-constraint-default="1.0.2" rev-constraint-dynamic="1.0.2" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="compress-lzf" type="jar" ext="jar" status="no" details="" size="79732" time="0" location="/home/himani/.ivy2/cache/com.ning/compress-lzf/jars/compress-lzf-1.0.2.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/ning/compress-lzf/1.0.2/compress-lzf-1.0.2.jar"/>
+					</artifact>
+					<artifact name="compress-lzf" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="69893" time="0" location="/home/himani/.ivy2/cache/com.ning/compress-lzf/srcs/compress-lzf-1.0.2-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/ning/compress-lzf/1.0.2/compress-lzf-1.0.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty">
+			<revision name="3.10.5.Final" status="release" pubdate="20151014150124" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://netty.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="26">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="7071" time="0" location="/home/himani/.ivy2/cache/io.netty/netty/ivy-3.10.5.Final.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/io/netty/netty/3.10.5.Final/netty-3.10.5.Final.pom"/>
+				<caller organisation="default" name="crudes$sources_2.11" conf="compile" rev="3.10.5.Final" rev-constraint-default="3.10.5.Final" rev-constraint-dynamic="3.10.5.Final" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="netty" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1154000" time="0" location="/home/himani/.ivy2/cache/io.netty/netty/srcs/netty-3.10.5.Final-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/io/netty/netty/3.10.5.Final/netty-3.10.5.Final-sources.jar"/>
+					</artifact>
+					<artifact name="netty" type="jar" ext="jar" status="no" details="" size="1330394" time="0" location="/home/himani/.ivy2/cache/io.netty/netty/jars/netty-3.10.5.Final.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/io/netty/netty/3.10.5.Final/netty-3.10.5.Final.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.dataformat" name="jackson-dataformat-cbor">
+			<revision name="2.6.2" status="release" pubdate="20150925183807" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://wiki.fasterxml.com/JacksonForCbor" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="25">
+				<metadata-artifact status="no" details="" size="7257" time="0" location="/home/himani/.ivy2/cache/com.fasterxml.jackson.dataformat/jackson-dataformat-cbor/ivy-2.6.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.6.2/jackson-dataformat-cbor-2.6.2.pom"/>
+				<caller organisation="default" name="crudes$sources_2.11" conf="compile" rev="2.6.2" rev-constraint-default="2.6.2" rev-constraint-dynamic="2.6.2" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jackson-dataformat-cbor" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="38253" time="0" location="/home/himani/.ivy2/cache/com.fasterxml.jackson.dataformat/jackson-dataformat-cbor/srcs/jackson-dataformat-cbor-2.6.2-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.6.2/jackson-dataformat-cbor-2.6.2-sources.jar"/>
+					</artifact>
+					<artifact name="jackson-dataformat-cbor" type="jar" ext="jar" status="no" details="" size="48148" time="0" location="/home/himani/.ivy2/cache/com.fasterxml.jackson.dataformat/jackson-dataformat-cbor/jars/jackson-dataformat-cbor-2.6.2.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.6.2/jackson-dataformat-cbor-2.6.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.dataformat" name="jackson-dataformat-yaml">
+			<revision name="2.6.2" status="release" pubdate="20150916075915" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/FasterXML/jackson" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="23">
+				<metadata-artifact status="no" details="" size="8716" time="0" location="/home/himani/.ivy2/cache/com.fasterxml.jackson.dataformat/jackson-dataformat-yaml/ivy-2.6.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.6.2/jackson-dataformat-yaml-2.6.2.pom"/>
+				<caller organisation="default" name="crudes$sources_2.11" conf="compile" rev="2.6.2" rev-constraint-default="2.6.2" rev-constraint-dynamic="2.6.2" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jackson-dataformat-yaml" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="26666" time="0" location="/home/himani/.ivy2/cache/com.fasterxml.jackson.dataformat/jackson-dataformat-yaml/srcs/jackson-dataformat-yaml-2.6.2-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.6.2/jackson-dataformat-yaml-2.6.2-sources.jar"/>
+					</artifact>
+					<artifact name="jackson-dataformat-yaml" type="jar" ext="jar" status="no" details="" size="320441" time="0" location="/home/himani/.ivy2/cache/com.fasterxml.jackson.dataformat/jackson-dataformat-yaml/jars/jackson-dataformat-yaml-2.6.2.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.6.2/jackson-dataformat-yaml-2.6.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.yaml" name="snakeyaml">
+			<revision name="1.15" status="release" pubdate="20150219185700" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.snakeyaml.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="24">
+				<license name="Apache License Version 2.0" url="LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="3465" time="0" location="/home/himani/.ivy2/cache/org.yaml/snakeyaml/ivy-1.15.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/yaml/snakeyaml/1.15/snakeyaml-1.15.pom"/>
+				<caller organisation="default" name="crudes$sources_2.11" conf="compile" rev="1.15" rev-constraint-default="1.15" rev-constraint-dynamic="1.15" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="snakeyaml" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="169119" time="0" location="/home/himani/.ivy2/cache/org.yaml/snakeyaml/srcs/snakeyaml-1.15-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/yaml/snakeyaml/1.15/snakeyaml-1.15-sources.jar"/>
+					</artifact>
+					<artifact name="snakeyaml" type="jar" ext="jar" status="no" details="" size="269295" time="0" location="/home/himani/.ivy2/cache/org.yaml/snakeyaml/jars/snakeyaml-1.15.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/yaml/snakeyaml/1.15/snakeyaml-1.15.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.dataformat" name="jackson-dataformat-smile">
+			<revision name="2.6.2" status="release" pubdate="20150916150928" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://wiki.fasterxml.com/JacksonForSmile" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="22">
+				<metadata-artifact status="no" details="" size="7263" time="0" location="/home/himani/.ivy2/cache/com.fasterxml.jackson.dataformat/jackson-dataformat-smile/ivy-2.6.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/fasterxml/jackson/dataformat/jackson-dataformat-smile/2.6.2/jackson-dataformat-smile-2.6.2.pom"/>
+				<caller organisation="default" name="crudes$sources_2.11" conf="compile" rev="2.6.2" rev-constraint-default="2.6.2" rev-constraint-dynamic="2.6.2" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jackson-dataformat-smile" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="71037" time="0" location="/home/himani/.ivy2/cache/com.fasterxml.jackson.dataformat/jackson-dataformat-smile/srcs/jackson-dataformat-smile-2.6.2-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/fasterxml/jackson/dataformat/jackson-dataformat-smile/2.6.2/jackson-dataformat-smile-2.6.2-sources.jar"/>
+					</artifact>
+					<artifact name="jackson-dataformat-smile" type="jar" ext="jar" status="no" details="" size="75941" time="0" location="/home/himani/.ivy2/cache/com.fasterxml.jackson.dataformat/jackson-dataformat-smile/jars/jackson-dataformat-smile-2.6.2.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/fasterxml/jackson/dataformat/jackson-dataformat-smile/2.6.2/jackson-dataformat-smile-2.6.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-core">
+			<revision name="2.6.2" status="release" pubdate="20150915114958" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/FasterXML/jackson-core" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="21">
+				<metadata-artifact status="no" details="" size="6707" time="0" location="/home/himani/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/ivy-2.6.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-core/2.6.2/jackson-core-2.6.2.pom"/>
+				<caller organisation="default" name="crudes$sources_2.11" conf="compile" rev="2.6.2" rev-constraint-default="2.6.2" rev-constraint-dynamic="2.6.2" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jackson-core" type="jar" ext="jar" status="no" details="" size="258824" time="0" location="/home/himani/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/jars/jackson-core-2.6.2.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-core/2.6.2/jackson-core-2.6.2.jar"/>
+					</artifact>
+					<artifact name="jackson-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="271945" time="0" location="/home/himani/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/srcs/jackson-core-2.6.2-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-core/2.6.2/jackson-core-2.6.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="joda-time" name="joda-time">
+			<revision name="2.8.2" status="release" pubdate="20150811172900" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.joda.org/joda-time/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="19">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6595" time="0" location="/home/himani/.ivy2/cache/joda-time/joda-time/ivy-2.8.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/joda-time/joda-time/2.8.2/joda-time-2.8.2.pom"/>
+				<caller organisation="default" name="crudes$sources_2.11" conf="compile" rev="2.8.2" rev-constraint-default="2.8.2" rev-constraint-dynamic="2.8.2" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="joda-time" type="jar" ext="jar" status="no" details="" size="621992" time="0" location="/home/himani/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.8.2.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/joda-time/joda-time/2.8.2/joda-time-2.8.2.jar"/>
+					</artifact>
+					<artifact name="joda-time" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="762254" time="0" location="/home/himani/.ivy2/cache/joda-time/joda-time/srcs/joda-time-2.8.2-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/joda-time/joda-time/2.8.2/joda-time-2.8.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.joda" name="joda-convert">
+			<revision name="1.2" status="release" pubdate="20131006230714" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://joda-convert.sourceforge.net" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="20">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3120" time="0" location="/home/himani/.ivy2/cache/org.joda/joda-convert/ivy-1.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/joda/joda-convert/1.2/joda-convert-1.2.pom"/>
+				<caller organisation="default" name="crudes$sources_2.11" conf="compile" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="joda-convert" type="jar" ext="jar" status="no" details="" size="38460" time="0" location="/home/himani/.ivy2/cache/org.joda/joda-convert/jars/joda-convert-1.2.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/joda/joda-convert/1.2/joda-convert-1.2.jar"/>
+					</artifact>
+					<artifact name="joda-convert" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="19105" time="0" location="/home/himani/.ivy2/cache/org.joda/joda-convert/srcs/joda-convert-1.2-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/joda/joda-convert/1.2/joda-convert-1.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.carrotsearch" name="hppc">
+			<revision name="0.7.1" status="release" pubdate="20150507130300" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="18">
+				<metadata-artifact status="no" details="" size="7215" time="0" location="/home/himani/.ivy2/cache/com.carrotsearch/hppc/ivy-0.7.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/carrotsearch/hppc/0.7.1/hppc-0.7.1.pom"/>
+				<caller organisation="default" name="crudes$sources_2.11" conf="compile" rev="0.7.1" rev-constraint-default="0.7.1" rev-constraint-dynamic="0.7.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="hppc" type="jar" ext="jar" status="no" details="" size="1140290" time="0" location="/home/himani/.ivy2/cache/com.carrotsearch/hppc/jars/hppc-0.7.1.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/carrotsearch/hppc/0.7.1/hppc-0.7.1.jar"/>
+					</artifact>
+					<artifact name="hppc" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="738368" time="0" location="/home/himani/.ivy2/cache/com.carrotsearch/hppc/srcs/hppc-0.7.1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/carrotsearch/hppc/0.7.1/hppc-0.7.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.guava" name="guava">
+			<revision name="18.0" status="release" pubdate="20140826001834" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="17">
+				<metadata-artifact status="no" details="" size="5765" time="0" location="/home/himani/.ivy2/cache/com.google.guava/guava/ivy-18.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/guava/guava/18.0/guava-18.0.pom"/>
+				<caller organisation="default" name="crudes$sources_2.11" conf="compile" rev="18.0" rev-constraint-default="18.0" rev-constraint-dynamic="18.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="guava" type="jar" ext="jar" status="no" details="" size="2256213" time="0" location="/home/himani/.ivy2/cache/com.google.guava/guava/jars/guava-18.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/google/guava/guava/18.0/guava-18.0.jar"/>
+					</artifact>
+					<artifact name="guava" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1277909" time="0" location="/home/himani/.ivy2/cache/com.google.guava/guava/srcs/guava-18.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/google/guava/guava/18.0/guava-18.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-spatial">
+			<revision name="5.4.1" status="release" pubdate="20160122133221" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="14">
+				<metadata-artifact status="no" details="" size="459747" time="0" location="/home/himani/.ivy2/cache/org.apache.lucene/lucene-spatial/ivy-5.4.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/lucene/lucene-spatial/5.4.1/lucene-spatial-5.4.1.pom"/>
+				<caller organisation="default" name="crudes$sources_2.11" conf="compile" rev="5.4.1" rev-constraint-default="5.4.1" rev-constraint-dynamic="5.4.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="lucene-spatial" type="jar" ext="jar" status="no" details="" size="194833" time="0" location="/home/himani/.ivy2/cache/org.apache.lucene/lucene-spatial/jars/lucene-spatial-5.4.1.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/lucene/lucene-spatial/5.4.1/lucene-spatial-5.4.1.jar"/>
+					</artifact>
+					<artifact name="lucene-spatial" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="149494" time="0" location="/home/himani/.ivy2/cache/org.apache.lucene/lucene-spatial/srcs/lucene-spatial-5.4.1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/lucene/lucene-spatial/5.4.1/lucene-spatial-5.4.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.spatial4j" name="spatial4j">
+			<revision name="0.5" status="release" pubdate="20150923142049" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="16">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4258" time="0" location="/home/himani/.ivy2/cache/com.spatial4j/spatial4j/ivy-0.5.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/spatial4j/spatial4j/0.5/spatial4j-0.5.pom"/>
+				<caller organisation="default" name="crudes$sources_2.11" conf="compile" rev="0.5" rev-constraint-default="0.5" rev-constraint-dynamic="0.5" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="spatial4j" type="jar" ext="jar" status="no" details="" size="148571" time="0" location="/home/himani/.ivy2/cache/com.spatial4j/spatial4j/jars/spatial4j-0.5.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/spatial4j/spatial4j/0.5/spatial4j-0.5.jar"/>
+					</artifact>
+					<artifact name="spatial4j" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="115978" time="0" location="/home/himani/.ivy2/cache/com.spatial4j/spatial4j/srcs/spatial4j-0.5-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/spatial4j/spatial4j/0.5/spatial4j-0.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-spatial3d">
+			<revision name="5.4.1" status="release" pubdate="20160125182837" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="15">
+				<metadata-artifact status="no" details="" size="482303" time="0" location="/home/himani/.ivy2/cache/org.apache.lucene/lucene-spatial3d/ivy-5.4.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/lucene/lucene-spatial3d/5.4.1/lucene-spatial3d-5.4.1.pom"/>
+				<caller organisation="default" name="crudes$sources_2.11" conf="compile" rev="5.4.1" rev-constraint-default="5.4.1" rev-constraint-dynamic="5.4.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="lucene-spatial3d" type="jar" ext="jar" status="no" details="" size="196950" time="0" location="/home/himani/.ivy2/cache/org.apache.lucene/lucene-spatial3d/jars/lucene-spatial3d-5.4.1.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/lucene/lucene-spatial3d/5.4.1/lucene-spatial3d-5.4.1.jar"/>
+					</artifact>
+					<artifact name="lucene-spatial3d" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="192668" time="0" location="/home/himani/.ivy2/cache/org.apache.lucene/lucene-spatial3d/srcs/lucene-spatial3d-5.4.1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/lucene/lucene-spatial3d/5.4.1/lucene-spatial3d-5.4.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-suggest">
+			<revision name="5.4.1" status="release" pubdate="20160122133220" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="12">
+				<metadata-artifact status="no" details="" size="483088" time="0" location="/home/himani/.ivy2/cache/org.apache.lucene/lucene-suggest/ivy-5.4.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/lucene/lucene-suggest/5.4.1/lucene-suggest-5.4.1.pom"/>
+				<caller organisation="default" name="crudes$sources_2.11" conf="compile" rev="5.4.1" rev-constraint-default="5.4.1" rev-constraint-dynamic="5.4.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="lucene-suggest" type="jar" ext="jar" status="no" details="" size="246253" time="0" location="/home/himani/.ivy2/cache/org.apache.lucene/lucene-suggest/jars/lucene-suggest-5.4.1.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/lucene/lucene-suggest/5.4.1/lucene-suggest-5.4.1.jar"/>
+					</artifact>
+					<artifact name="lucene-suggest" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="198347" time="0" location="/home/himani/.ivy2/cache/org.apache.lucene/lucene-suggest/srcs/lucene-suggest-5.4.1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/lucene/lucene-suggest/5.4.1/lucene-suggest-5.4.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-misc">
+			<revision name="5.4.1" status="release" pubdate="20160122133225" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="13">
+				<metadata-artifact status="no" details="" size="482261" time="0" location="/home/himani/.ivy2/cache/org.apache.lucene/lucene-misc/ivy-5.4.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/lucene/lucene-misc/5.4.1/lucene-misc-5.4.1.pom"/>
+				<caller organisation="default" name="crudes$sources_2.11" conf="compile" rev="5.4.1" rev-constraint-default="5.4.1" rev-constraint-dynamic="5.4.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="lucene-misc" type="jar" ext="jar" status="no" details="" size="172511" time="0" location="/home/himani/.ivy2/cache/org.apache.lucene/lucene-misc/jars/lucene-misc-5.4.1.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/lucene/lucene-misc/5.4.1/lucene-misc-5.4.1.jar"/>
+					</artifact>
+					<artifact name="lucene-misc" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="118569" time="0" location="/home/himani/.ivy2/cache/org.apache.lucene/lucene-misc/srcs/lucene-misc-5.4.1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/lucene/lucene-misc/5.4.1/lucene-misc-5.4.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-highlighter">
+			<revision name="5.4.1" status="release" pubdate="20160122133212" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="7">
+				<metadata-artifact status="no" details="" size="483511" time="0" location="/home/himani/.ivy2/cache/org.apache.lucene/lucene-highlighter/ivy-5.4.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/lucene/lucene-highlighter/5.4.1/lucene-highlighter-5.4.1.pom"/>
+				<caller organisation="default" name="crudes$sources_2.11" conf="compile" rev="5.4.1" rev-constraint-default="5.4.1" rev-constraint-dynamic="5.4.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="lucene-highlighter" type="jar" ext="jar" status="no" details="" size="144768" time="0" location="/home/himani/.ivy2/cache/org.apache.lucene/lucene-highlighter/jars/lucene-highlighter-5.4.1.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/lucene/lucene-highlighter/5.4.1/lucene-highlighter-5.4.1.jar"/>
+					</artifact>
+					<artifact name="lucene-highlighter" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="123421" time="0" location="/home/himani/.ivy2/cache/org.apache.lucene/lucene-highlighter/srcs/lucene-highlighter-5.4.1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/lucene/lucene-highlighter/5.4.1/lucene-highlighter-5.4.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-join">
+			<revision name="5.4.1" status="release" pubdate="20160122133211" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="8">
+				<metadata-artifact status="no" details="" size="482635" time="0" location="/home/himani/.ivy2/cache/org.apache.lucene/lucene-join/ivy-5.4.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/lucene/lucene-join/5.4.1/lucene-join-5.4.1.pom"/>
+				<caller organisation="default" name="crudes$sources_2.11" conf="compile" rev="5.4.1" rev-constraint-default="5.4.1" rev-constraint-dynamic="5.4.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="lucene-join" type="jar" ext="jar" status="no" details="" size="118871" time="0" location="/home/himani/.ivy2/cache/org.apache.lucene/lucene-join/jars/lucene-join-5.4.1.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/lucene/lucene-join/5.4.1/lucene-join-5.4.1.jar"/>
+					</artifact>
+					<artifact name="lucene-join" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="62542" time="0" location="/home/himani/.ivy2/cache/org.apache.lucene/lucene-join/srcs/lucene-join-5.4.1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/lucene/lucene-join/5.4.1/lucene-join-5.4.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-grouping">
+			<revision name="5.4.1" status="release" pubdate="20160122133213" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="9">
+				<metadata-artifact status="no" details="" size="482538" time="0" location="/home/himani/.ivy2/cache/org.apache.lucene/lucene-grouping/ivy-5.4.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/lucene/lucene-grouping/5.4.1/lucene-grouping-5.4.1.pom"/>
+				<caller organisation="default" name="crudes$sources_2.11" conf="compile" rev="5.4.1" rev-constraint-default="5.4.1" rev-constraint-dynamic="5.4.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="lucene-grouping" type="jar" ext="jar" status="no" details="" size="107204" time="0" location="/home/himani/.ivy2/cache/org.apache.lucene/lucene-grouping/jars/lucene-grouping-5.4.1.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/lucene/lucene-grouping/5.4.1/lucene-grouping-5.4.1.jar"/>
+					</artifact>
+					<artifact name="lucene-grouping" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="71663" time="0" location="/home/himani/.ivy2/cache/org.apache.lucene/lucene-grouping/srcs/lucene-grouping-5.4.1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/lucene/lucene-grouping/5.4.1/lucene-grouping-5.4.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-memory">
+			<revision name="5.4.1" status="release" pubdate="20160122133209" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="6">
+				<metadata-artifact status="no" details="" size="482778" time="0" location="/home/himani/.ivy2/cache/org.apache.lucene/lucene-memory/ivy-5.4.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/lucene/lucene-memory/5.4.1/lucene-memory-5.4.1.pom"/>
+				<caller organisation="default" name="crudes$sources_2.11" conf="compile" rev="5.4.1" rev-constraint-default="5.4.1" rev-constraint-dynamic="5.4.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="lucene-memory" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="24555" time="0" location="/home/himani/.ivy2/cache/org.apache.lucene/lucene-memory/srcs/lucene-memory-5.4.1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/lucene/lucene-memory/5.4.1/lucene-memory-5.4.1-sources.jar"/>
+					</artifact>
+					<artifact name="lucene-memory" type="jar" ext="jar" status="no" details="" size="33240" time="0" location="/home/himani/.ivy2/cache/org.apache.lucene/lucene-memory/jars/lucene-memory-5.4.1.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/lucene/lucene-memory/5.4.1/lucene-memory-5.4.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-queryparser">
+			<revision name="5.4.1" status="release" pubdate="20160122133223" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="10">
+				<metadata-artifact status="no" details="" size="482934" time="0" location="/home/himani/.ivy2/cache/org.apache.lucene/lucene-queryparser/ivy-5.4.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/lucene/lucene-queryparser/5.4.1/lucene-queryparser-5.4.1.pom"/>
+				<caller organisation="default" name="crudes$sources_2.11" conf="compile" rev="5.4.1" rev-constraint-default="5.4.1" rev-constraint-dynamic="5.4.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="lucene-queryparser" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="405509" time="0" location="/home/himani/.ivy2/cache/org.apache.lucene/lucene-queryparser/srcs/lucene-queryparser-5.4.1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/lucene/lucene-queryparser/5.4.1/lucene-queryparser-5.4.1-sources.jar"/>
+					</artifact>
+					<artifact name="lucene-queryparser" type="jar" ext="jar" status="no" details="" size="402603" time="0" location="/home/himani/.ivy2/cache/org.apache.lucene/lucene-queryparser/jars/lucene-queryparser-5.4.1.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/lucene/lucene-queryparser/5.4.1/lucene-queryparser-5.4.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-sandbox">
+			<revision name="5.4.1" status="release" pubdate="20160122133222" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="11">
+				<metadata-artifact status="no" details="" size="482398" time="0" location="/home/himani/.ivy2/cache/org.apache.lucene/lucene-sandbox/ivy-5.4.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/lucene/lucene-sandbox/5.4.1/lucene-sandbox-5.4.1.pom"/>
+				<caller organisation="default" name="crudes$sources_2.11" conf="compile" rev="5.4.1" rev-constraint-default="5.4.1" rev-constraint-dynamic="5.4.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="lucene-sandbox" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="208951" time="0" location="/home/himani/.ivy2/cache/org.apache.lucene/lucene-sandbox/srcs/lucene-sandbox-5.4.1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/lucene/lucene-sandbox/5.4.1/lucene-sandbox-5.4.1-sources.jar"/>
+					</artifact>
+					<artifact name="lucene-sandbox" type="jar" ext="jar" status="no" details="" size="273543" time="0" location="/home/himani/.ivy2/cache/org.apache.lucene/lucene-sandbox/jars/lucene-sandbox-5.4.1.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/lucene/lucene-sandbox/5.4.1/lucene-sandbox-5.4.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-queries">
+			<revision name="5.4.1" status="release" pubdate="20160122133224" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="5">
+				<metadata-artifact status="no" details="" size="482260" time="0" location="/home/himani/.ivy2/cache/org.apache.lucene/lucene-queries/ivy-5.4.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/lucene/lucene-queries/5.4.1/lucene-queries-5.4.1.pom"/>
+				<caller organisation="default" name="crudes$sources_2.11" conf="compile" rev="5.4.1" rev-constraint-default="5.4.1" rev-constraint-dynamic="5.4.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="lucene-queries" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="153247" time="0" location="/home/himani/.ivy2/cache/org.apache.lucene/lucene-queries/srcs/lucene-queries-5.4.1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/lucene/lucene-queries/5.4.1/lucene-queries-5.4.1-sources.jar"/>
+					</artifact>
+					<artifact name="lucene-queries" type="jar" ext="jar" status="no" details="" size="247818" time="0" location="/home/himani/.ivy2/cache/org.apache.lucene/lucene-queries/jars/lucene-queries-5.4.1.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/lucene/lucene-queries/5.4.1/lucene-queries-5.4.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-analyzers-common">
+			<revision name="5.4.1" status="release" pubdate="20160122133201" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="4">
+				<metadata-artifact status="no" details="" size="482288" time="0" location="/home/himani/.ivy2/cache/org.apache.lucene/lucene-analyzers-common/ivy-5.4.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/lucene/lucene-analyzers-common/5.4.1/lucene-analyzers-common-5.4.1.pom"/>
+				<caller organisation="default" name="crudes$sources_2.11" conf="compile" rev="5.4.1" rev-constraint-default="5.4.1" rev-constraint-dynamic="5.4.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="lucene-analyzers-common" type="jar" ext="jar" status="no" details="" size="1577497" time="0" location="/home/himani/.ivy2/cache/org.apache.lucene/lucene-analyzers-common/jars/lucene-analyzers-common-5.4.1.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/lucene/lucene-analyzers-common/5.4.1/lucene-analyzers-common-5.4.1.jar"/>
+					</artifact>
+					<artifact name="lucene-analyzers-common" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1539760" time="0" location="/home/himani/.ivy2/cache/org.apache.lucene/lucene-analyzers-common/srcs/lucene-analyzers-common-5.4.1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/lucene/lucene-analyzers-common/5.4.1/lucene-analyzers-common-5.4.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-backward-codecs">
+			<revision name="5.4.1" status="release" pubdate="20160122133202" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="3">
+				<metadata-artifact status="no" details="" size="482299" time="0" location="/home/himani/.ivy2/cache/org.apache.lucene/lucene-backward-codecs/ivy-5.4.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/lucene/lucene-backward-codecs/5.4.1/lucene-backward-codecs-5.4.1.pom"/>
+				<caller organisation="default" name="crudes$sources_2.11" conf="compile" rev="5.4.1" rev-constraint-default="5.4.1" rev-constraint-dynamic="5.4.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="lucene-backward-codecs" type="jar" ext="jar" status="no" details="" size="430809" time="0" location="/home/himani/.ivy2/cache/org.apache.lucene/lucene-backward-codecs/jars/lucene-backward-codecs-5.4.1.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/lucene/lucene-backward-codecs/5.4.1/lucene-backward-codecs-5.4.1.jar"/>
+					</artifact>
+					<artifact name="lucene-backward-codecs" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="231770" time="0" location="/home/himani/.ivy2/cache/org.apache.lucene/lucene-backward-codecs/srcs/lucene-backward-codecs-5.4.1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/lucene/lucene-backward-codecs/5.4.1/lucene-backward-codecs-5.4.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-core">
+			<revision name="5.4.1" status="release" pubdate="20160122133214" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="2">
+				<metadata-artifact status="no" details="" size="481190" time="0" location="/home/himani/.ivy2/cache/org.apache.lucene/lucene-core/ivy-5.4.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/lucene/lucene-core/5.4.1/lucene-core-5.4.1.pom"/>
+				<caller organisation="default" name="crudes$sources_2.11" conf="compile" rev="5.4.1" rev-constraint-default="5.4.1" rev-constraint-dynamic="5.4.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="lucene-core" type="jar" ext="jar" status="no" details="" size="2356436" time="0" location="/home/himani/.ivy2/cache/org.apache.lucene/lucene-core/jars/lucene-core-5.4.1.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/lucene/lucene-core/5.4.1/lucene-core-5.4.1.jar"/>
+					</artifact>
+					<artifact name="lucene-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1805727" time="0" location="/home/himani/.ivy2/cache/org.apache.lucene/lucene-core/srcs/lucene-core-5.4.1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/lucene/lucene-core/5.4.1/lucene-core-5.4.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.11.8" status="release" pubdate="20160304205633" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.8/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="0">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2653" time="0" location="/home/himani/.ivy2/cache/org.scala-lang/scala-library/ivy-2.11.8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.pom"/>
+				<caller organisation="default" name="crudes$sources_2.11" conf="compile" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="1.0" extra-info.apiURL="http://www.scala-lang.org/api/2.11.8/"/>
+				<artifacts>
+					<artifact name="scala-library" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="911686" time="0" location="/home/himani/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.8-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8-sources.jar"/>
+					</artifact>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5744974" time="0" location="/home/himani/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
